@@ -1,0 +1,8 @@
+# 元のパス
+original_path = r"C:\Users\ay011\Desktop\20240529_002\RAW\20240529_002\AfterSpkSrt\20240529_002_ch12_0\20240529_002_ch12_0_raster.pkl"
+
+# バックスラッシュをスラッシュに置き換える
+modified_path = original_path.replace("\\", "/")
+
+# 結果を表示
+print(modified_path)
